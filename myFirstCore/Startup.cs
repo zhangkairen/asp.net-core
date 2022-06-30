@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+using myFirstCore.Configure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +18,10 @@ namespace myFirstCore
         //用于访问appsetings的文件
         private IConfiguration configuration;
 
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="configuration"></param>
         public Startup(IConfiguration configuration)
         {
             this.configuration = configuration;
@@ -27,6 +33,11 @@ namespace myFirstCore
         {
             //注册controller，否则controller运行不了
             services.AddControllers();
+
+            //注册Swagger
+            //自己封装的方法 ConfigureSwagger中的AddSwaggerUp方法
+            services.AddSwaggerUp();
+
         }
 
         // 配置HTTP请求处理管道当中一些配置（必须实现）
@@ -53,6 +64,15 @@ namespace myFirstCore
                  await next();
              });
              */
+
+            //在pipeline(管道)中添加Swagger，及其路径的配置
+            app.UseSwagger();
+            app.UseSwaggerUI(m =>
+            {
+                m.SwaggerEndpoint("/Swagger/v1/swagger.json", "WebApi.Core V1");
+            });
+
+
             //强转https
             app.UseHttpsRedirection();
             //路由中间件

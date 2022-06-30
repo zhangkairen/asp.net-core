@@ -36,3 +36,9 @@ D:\ckFutureWorkSpace\core\asp.net-core\myFirstCore\obj\Debug\netcoreapp3.1\myFir
 D:\ckFutureWorkSpace\core\asp.net-core\myFirstCore\obj\Debug\netcoreapp3.1\myFirstCore.dll
 D:\ckFutureWorkSpace\core\asp.net-core\myFirstCore\obj\Debug\netcoreapp3.1\myFirstCore.pdb
 D:\ckFutureWorkSpace\core\asp.net-core\myFirstCore\obj\Debug\netcoreapp3.1\myFirstCore.genruntimeconfig.cache
+D:\ckFutureWorkSpace\core\asp.net-core\myFirstCore\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\ckFutureWorkSpace\core\asp.net-core\myFirstCore\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\ckFutureWorkSpace\core\asp.net-core\myFirstCore\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\ckFutureWorkSpace\core\asp.net-core\myFirstCore\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ckFutureWorkSpace\core\asp.net-core\myFirstCore\obj\Debug\netcoreapp3.1\myFirstCore.MvcApplicationPartsAssemblyInfo.cs
+D:\ckFutureWorkSpace\core\asp.net-core\myFirstCore\obj\Debug\netcoreapp3.1\myFirstCore.csproj.CopyComplete
