@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Kyxg6PYRIifs/PVHa2itqXL0ZY3B869SFM1e3TcWYUJDbF0FFCLO5yXvZr42sDxSN0To3fdnASY9egqzGcCrA==",
+  "dgSpecHash": "NaonPfbRcrhgMXiBNybBXnVIb2eqVYpZuqPFeaYwKPlJHCVIolAd9fg0gHdEGm4ZuvnYJTIVWgRAoVxIrPZ8dw==",
   "success": true,
-  "projectFilePath": "D:\\ckFutureWorkSpace\\core\\myFirstCore\\myFirstCore\\myFirstCore.csproj",
+  "projectFilePath": "D:\\ckFutureWorkSpace\\core\\asp.net-core\\myFirstCore\\myFirstCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

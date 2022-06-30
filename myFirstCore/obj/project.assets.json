@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ckFutureWorkSpace\\core\\myFirstCore\\myFirstCore\\myFirstCore.csproj",
+      "projectUniqueName": "D:\\ckFutureWorkSpace\\core\\asp.net-core\\myFirstCore\\myFirstCore.csproj",
       "projectName": "myFirstCore",
-      "projectPath": "D:\\ckFutureWorkSpace\\core\\myFirstCore\\myFirstCore\\myFirstCore.csproj",
+      "projectPath": "D:\\ckFutureWorkSpace\\core\\asp.net-core\\myFirstCore\\myFirstCore.csproj",
       "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
-      "outputPath": "D:\\ckFutureWorkSpace\\core\\myFirstCore\\myFirstCore\\obj\\",
+      "outputPath": "D:\\ckFutureWorkSpace\\core\\asp.net-core\\myFirstCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

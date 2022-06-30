@@ -16,15 +16,15 @@ namespace myFirstCore
         {
             //对CreateHostBuilder(args).Build().Run();的分布解释
             //内部，会配置kestrel服务器，IIS相关，其他配置。
-            IHostBuilder builder =  Host.CreateDefaultBuilder(args);
+           /* IHostBuilder builder =  Host.CreateDefaultBuilder(args);
             builder.ConfigureWebHostDefaults(webBuilder =>
             {
                 webBuilder.UseStartup<Startup>();
             });
             IHost webHost = builder.Build();
-            webHost.Run();
+            webHost.Run();*/
 
-            //CreateHostBuilder(args).Build().Run();
+            CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
